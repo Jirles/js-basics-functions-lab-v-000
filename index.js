@@ -11,6 +11,6 @@ function distanceTravelledInFeet(pickUpBlock, destinationBlock) {
   return Math.abs(destinationBlock - pickUpBlock) * 264;
 };
 
-function calculatesFarePrice(){
+function calculatesFarePrice(start, destination{
   
 };
