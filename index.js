@@ -7,3 +7,6 @@ function distanceFromHqInBlocks(street) {
 function distanceFromHqInFeet(block) {
   return distanceFromHqInBlocks(block) * 264;
 };
+function distanceTravelledInFeet(pickUpBlock, destinationBlock) {
+  return Math.abs(destinationBlock - pickUpBlock) * 264;
+};
