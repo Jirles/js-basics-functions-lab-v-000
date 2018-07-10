@@ -7,10 +7,10 @@ function distanceFromHqInBlocks(street) {
 function distanceFromHqInFeet(block) {
   return distanceFromHqInBlocks(block) * 264;
 };
-function distanceTravelledInFeet(pickUpBlock, destinationBlock) {
-  return Math.abs(destinationBlock - pickUpBlock) * 264;
+function distanceTravelledInFeet(start, destination) {
+  return Math.abs(destination - start) * 264;
 };
 
-function calculatesFarePrice(start, destination{
-  
+function calculatesFarePrice(start, destination){
+
 };
